@@ -1,4 +1,3 @@
-import React from "react";
 
 function NavBar() {
   let navItems = (
@@ -113,6 +112,12 @@ function NavBar() {
           </div>
         </div>
       </div>
+
+
+      <div>
+        <h1>Hello everyone im your learning app</h1>
+      </div>
+
     </>
   );
 }
