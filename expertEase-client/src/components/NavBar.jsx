@@ -114,10 +114,6 @@ function NavBar() {
       </div>
 
 
-      <div>
-        <h1>Hello everyone im your learning app</h1>
-      </div>
-
     </>
   );
 }
