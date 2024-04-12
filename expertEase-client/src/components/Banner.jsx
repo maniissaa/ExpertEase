@@ -3,7 +3,7 @@ import banner from "../../public/banner.jpeg";
 function Banner() {
   return (
     <>
-      <div className="flex flex-col md:flex-row max-w-screen-2xl container mx-auto md:px-20 px-4 gap-2">
+      <div className="flex flex-col md:flex-row max-w-screen-2xl container mx-auto md:px-20 px-4 gap-2 my-10">
         <div className="order-2 md:order-1 w-full md:w-1/2  md:mt-20 mt-10">
           <div className="space-y-9">
             <div>
@@ -45,7 +45,7 @@ function Banner() {
         </div>
         <div className="order-1 w-full md:w-1/2">
           <img
-            className="md:mt-24 mt-4 rounded-lg md:h-[490px]  md:w-[570px] "
+            className="md:mt-24 mt-4  md:h-[490px]  md:w-[570px] "
             src={banner}
             alt=""
           />

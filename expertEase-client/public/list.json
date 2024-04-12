@@ -1,0 +1,89 @@
+[
+    {
+        "id":1,
+        "course":"Graphic Design Basics",
+        "title":"Discover the Foundations of Graphic Design Excellence. ",
+        "price":0,
+        "category":"Free",
+        "imageUrl":"../public/Graphic Design The New Basics.jpeg"
+
+    },
+    {
+        "id":2,
+        "course":"Psychology book",
+        "title":"Atkinson & Hilgard's Introduction to Psychology. ",
+        "price":0,
+        "category":"Free",
+        "imageUrl":"../public/Introduction to Psychology.jpeg"
+
+    },{
+        "id":3,
+        "course":"Web Development-Beginners",
+        "title":"what is webdevelopment?how to learn web development.",
+        "price":0,
+        "category":"Free",
+        "imageUrl":"../public/Learn UI UX Design-premium.jpg"
+
+    },{
+        "id":4,
+        "course":"Learn UI UX design",
+        "title":"how to become UI/UX -basics. ",
+        "price":0,
+        "category":"Free",
+        "imageUrl":"../public/Graphic Design The New Basics.jpeg"
+
+    },{
+        "id":5,
+        "course":"Full Course on UI UX design",
+        "title":"Here's UI/UX design from Scratch ",
+        "price":70,
+        "category":"not free",
+        "imageUrl":"../public/Learn UI UX Design-premium.jpeg"
+
+    },
+    {
+        "id":6,
+        "course":"Financial Markets and Investment Strategy",
+        "title":"Stock market investing for beginners. ",
+        "price":90,
+        "category":"not free",
+        "imageUrl":"../public/Stock Market Investing For Beginners.jpeg"
+
+    },
+    {
+        "id":7,
+        "course":"Entrepreneurship Essentials",
+        "title":"Business Success Mindset Tips. ",
+        "price":90,
+        "category":"not free",
+        "imageUrl":"../public/Entrepreneurship is not a solo journey.jpeg"
+
+    },
+    {
+        "id":8,
+        "course":"Machine Learning Foundations: A Crash Course",
+        "title":"How Machine Learning Is Working Step By Step ",
+        "price":90,
+        "category":"not free",
+        "imageUrl":"../public/How Machine Learning Is Working Step By Step.jpeg"
+
+    },
+    {
+        "id":9,
+        "course":"Artificial Intelligence",
+        "title":"Artificial Intelligence_ An Illustrated History by Clifford ",
+        "price":90,
+        "category":"not free",
+        "imageUrl":"../public/Artificial Intelligence_ An Illustrated History.jpeg"
+
+    },
+    {
+        "id":10,
+        "course":"Git & github",
+        "title":"All about GitHub",
+        "price":90,
+        "category":"Free",
+        "imageUrl":"../public/All about GitHub.jpg"
+
+    }
+]
