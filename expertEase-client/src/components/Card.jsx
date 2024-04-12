@@ -5,7 +5,7 @@ function Card({ item }) {
   console.log(item);
   return (
     <>
-      <div className="mt-4 pl-4 py-6">
+      <div className="mt-4 md:pl-4 pl-2 py-6">
         <div className="card md:w-80 w-96 bg-base-100 shadow-xl sm:h-96 h-80 hover:shadow-2xl">
           <figure>
             <img className="h-48" src={item.imageUrl} alt="No image" />

@@ -22,7 +22,7 @@
         "title":"what is webdevelopment?how to learn web development.",
         "price":0,
         "category":"Free",
-        "imageUrl":"../public/Learn UI UX Design-premium.jpg"
+        "imageUrl":"../public/Learning web development.jpeg"
 
     },{
         "id":4,
@@ -30,11 +30,11 @@
         "title":"how to become UI/UX -basics. ",
         "price":0,
         "category":"Free",
-        "imageUrl":"../public/Graphic Design The New Basics.jpeg"
+        "imageUrl":"../public/Do you want to become a UI UX Designer.jpg"
 
     },{
         "id":5,
-        "course":"Full Course on UI UX design",
+        "course":"Full Course on UI/UX design",
         "title":"Here's UI/UX design from Scratch ",
         "price":70,
         "category":"not free",
@@ -80,7 +80,7 @@
     {
         "id":10,
         "course":"Git & github",
-        "title":"All about GitHub",
+        "title":"All about GitHub, sneak-peek",
         "price":90,
         "category":"Free",
         "imageUrl":"../public/All about GitHub.jpg"
