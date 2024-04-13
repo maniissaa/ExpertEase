@@ -1,6 +1,6 @@
-
 // eslint-disable-next-line react/prop-types
 function Card({ item }) {
+  const badgeClass =item.category === "Free" ? "bg-green-600" : "bg-yellow-500";
   console.log(item);
   return (
     <>
@@ -12,11 +12,14 @@ function Card({ item }) {
           <div className="card-body">
             <h2 className="card-title flex justify-between">
               {item.course}
-              <div className="badge badge-success">{item.category}</div>
+              {/* <div className="badge  bg-red-600">{item.category}</div> */}
+              <div className={`badge ${badgeClass}`}>{item.category}</div>
             </h2>
             <p>{item.title}</p>
             <div className="card-actions justify-between">
-              <div className="badge badge-outline px-2 py-1">${item.price}</div>
+              <div className="badge bg-gre badge-outline px-2 py-1">
+                ${item.price}
+              </div>
               <div className="badge badge-outline hover:bg-indigo-700 hover:text-white px-2 hover:py-2">
                 Buy Now
               </div>
