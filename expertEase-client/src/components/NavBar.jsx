@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   const [sticky, setSticky] = useState(false);
@@ -21,16 +22,22 @@ function NavBar() {
   let navItems = (
     <>
       <li>
-        <a className="font-medium"> Learn</a>
+        <Link to="/" className="font-medium">
+          {" "}
+          Learn
+        </Link>
       </li>
       <li>
-        <a className="font-medium"> Business</a>
+        <Link to="/business" className="font-medium">
+          {" "}
+          Business
+        </Link>
       </li>
       <li>
-        <a className="font-medium"> About</a>
+        <Link className="font-medium"> About</Link>
       </li>
       <li>
-        <a className="font-medium"> Contact</a>
+        <Link className="font-medium"> Contact</Link>
       </li>
     </>
   );
