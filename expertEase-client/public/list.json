@@ -10,7 +10,7 @@
     },
     {
         "id":2,
-        "course":"Psychology book",
+        "course":"Psychology",
         "title":"Atkinson & Hilgard's Introduction to Psychology. ",
         "price":0,
         "category":"Free",
@@ -37,8 +37,8 @@
         "course":"Full Course on UI/UX design",
         "title":"Here's UI/UX design from Scratch ",
         "price":70,
-        "category":"not free",
-        "imageUrl":"../public/Learn UI UX Design-premium.jpeg"
+        "category":"Paid",
+        "imageUrl":"../public/Learn UI UX Design-premium.jpg"
 
     },
     {
@@ -46,7 +46,7 @@
         "course":"Financial Markets and Investment Strategy",
         "title":"Stock market investing for beginners. ",
         "price":90,
-        "category":"not free",
+        "category":"Paid",
         "imageUrl":"../public/Stock Market Investing For Beginners.jpeg"
 
     },
@@ -55,7 +55,7 @@
         "course":"Entrepreneurship Essentials",
         "title":"Business Success Mindset Tips. ",
         "price":90,
-        "category":"not free",
+        "category":"Paid",
         "imageUrl":"../public/Entrepreneurship is not a solo journey.jpeg"
 
     },
@@ -64,7 +64,7 @@
         "course":"Machine Learning Foundations: A Crash Course",
         "title":"How Machine Learning Is Working Step By Step ",
         "price":90,
-        "category":"not free",
+        "category":"Paid",
         "imageUrl":"../public/How Machine Learning Is Working Step By Step.jpeg"
 
     },
@@ -73,7 +73,7 @@
         "course":"Artificial Intelligence",
         "title":"Artificial Intelligence_ An Illustrated History by Clifford ",
         "price":90,
-        "category":"not free",
+        "category":"Paid",
         "imageUrl":"../public/Artificial Intelligence_ An Illustrated History.jpeg"
 
     },
@@ -81,7 +81,7 @@
         "id":10,
         "course":"Git & github",
         "title":"All about GitHub, sneak-peek",
-        "price":90,
+        "price":0,
         "category":"Free",
         "imageUrl":"../public/All about GitHub.jpg"
 
