@@ -135,7 +135,7 @@ function NavBar() {
             </label>
 
             <div className="">
-              <a className="bg-black text-white px-4 py-3 rounded-lg hover:bg-slate-800 duration-300 cursor-pointer">
+              <a className="text-base bg-black text-white px-4 py-1 rounded-lg hover:bg-slate-800 duration-300 cursor-pointer">
                 Login
               </a>
             </div>
