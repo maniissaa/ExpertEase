@@ -33,7 +33,7 @@ function Banner() {
               </svg>
               <input
                 type="text"
-                className="grow outline-none"
+                className="grow outline-none  dark:bg-slate-800 dark:text-white"
                 placeholder="Email"
               />
             </label>
