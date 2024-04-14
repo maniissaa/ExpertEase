@@ -1,11 +1,12 @@
 // eslint-disable-next-line react/prop-types
 function Card({ item }) {
-  const badgeClass =item.category === "Free" ? "bg-green-600" : "bg-yellow-500";
+  const badgeClass =
+    item.category === "Free" ? "bg-green-600" : "bg-yellow-500";
   console.log(item);
   return (
     <>
       <div className="mt-4 md:pl-4 pl-2 py-6">
-        <div className="card md:w-80 w-96 bg-base-100 shadow-xl sm:h-96 h-96 hover:shadow-2xl hover:scale-105 duration-300 dark:bg-slate-900 dark:text-white dark:border">
+        <div className="card md:w-80 w-96 bg-base-100 shadow-xl sm:h-96 h-96 hover:shadow-2xl hover:scale-105 duration-300 dark:bg-slate-900 dark:text-white s">
           <figure>
             <img className="h-48" src={item.imageUrl} alt="No image" />
           </figure>

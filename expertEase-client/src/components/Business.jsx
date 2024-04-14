@@ -14,7 +14,7 @@ function Business() {
       <div className="max-w-screen-2xl container mx-auto md:px-20 px-3 md:mt-16 md:pt-4 mt-4">
         <div className="space-y-3">
           <h1 className="font-serif text-3xl font-semibold">
-            Welcome to <span className="text-indigo-700  ">ExpertEase</span>{" "}
+            Welcome to <span className="text-indigo-700 dark:hover:text-indigo-500 ">ExpertEase</span>{" "}
             <span className="text-lime-500">Premium Courses</span>.
           </h1>
           <div className="bg-black md:h-24 h-40 flex items-center pl-3">
@@ -37,7 +37,7 @@ function Business() {
         <div className="mt-7">
           <h1 className="text--900 text-3xl h-8 font-medium font-serif">
             what to
-            <span className=" hover:text-indigo-700 py-0 w-12 m-1 cursor-pointer">
+            <span className=" hover:text-indigo-700 dark:hover:text-indigo-500 py-0 w-12 m-1 cursor-pointer">
               {" "}
               learn{" "}
             </span>{" "}

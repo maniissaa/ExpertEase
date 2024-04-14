@@ -13,7 +13,7 @@ function FreeCourses() {
   var settings = {
     dots: true,
     infinite: false,
-    speed: 800,
+    speed: 1000,
     slidesToShow: 3,
     slidesToScroll: 3,
     initialSlide: 0,

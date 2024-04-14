@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
+import LoginOpen from "../../src/components/Login";
 
 function NavBar() {
   // used to navigate pages from react-router-dom
@@ -76,6 +77,9 @@ function NavBar() {
       </li>
     </>
   );
+// click on to login button  will show a modal with form for user to input username and password
+  let Loginhere = () => document.getElementById("my_modal_3").showModal();
+
   return (
     <>
       <div
@@ -111,7 +115,7 @@ function NavBar() {
               </div>
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+                className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52  dark:bg-slate-800 dark:text-white dark:border"
               >
                 {navItems}
               </ul>
@@ -182,9 +186,13 @@ function NavBar() {
             </label>
 
             <div className="">
-              <a className="text-base bg-black text-white px-4 py-1 rounded-lg hover:text-lime-500 duration-300 cursor-pointer">
+              <a
+                className="text-base bg-black text-white px-4 py-1 rounded-lg hover:text-lime-500 duration-300 cursor-pointer"
+                onClick={Loginhere}
+              >
                 Login
               </a>
+              <LoginOpen />
             </div>
           </div>
         </div>
